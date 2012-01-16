@@ -58,7 +58,7 @@
 				<div class="span-6 ">
 					<ul id="item-nav">
 						<li><a href="committees_details.html" class="current">Details</a></li>
-						<li><a href="upcoming_meetings.html">Upcoming Meetings</a></li>
+						<li><a href="#">Upcoming Meetings</a></li>
 						<li><a href="past_meetings.html">Past Meetings</a></li>
 						<li><a href="#">Dockets</a></li>
 						<li><a href="#">Members</a></li>
