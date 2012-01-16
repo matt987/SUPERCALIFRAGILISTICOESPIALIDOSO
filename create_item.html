@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html charset=UTF-8" /> 
+	<title>OpenDocket :: The Civic Timeline</title> 
+ 
+	<meta name="author" content="David Krüger - http://buenasideaspy.com" /> 
+	<meta name="version" content="0.1-beta" /> 
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> 
+	<link rel="stylesheet" href="css/od.css" type="text/css" media="screen" /> 
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+
+</head>
+<body>
+
+	<!-- BAR FOR THE PROFILE LOGIN AND INFO -->
+	<div id="profile">
+		<div class="container">
+			<p class="right"><a href="index.html">Home</a> | Welcome <a href="#">John Adams</a> | <a href="#">Logout</a></p>
+		</div>
+	</div>
+
+	<!-- MAIN CONTENT -->
+	<div id="main">
+		<div class="container">
+			<div id="header" class="span-24 prepend-top append-bottom last">
+				<a id="nameapp" class="span-5" href="index.html"></a>
+				<ul id="nav" class="prepend-top prepend-6 span-13 last">
+					<li><a href="create_item.html">Create item</a></li>
+					<li><a href="#" class="current">Committees</a></li>
+					<li><a href="#">People</a></li>
+					<li><a href="#">Locations</a></li>
+					<li><a href="#">Tags</a></li>
+					<li><a href="#">Search</a></li>
+				</ul>
+				<ul id="subnav" class="span-24 last">
+					<li><a href="#" class="current first">Create item</a></li>
+				</ul>
+			</div>
+			
+			
+			<div id="pagehead" class="span-24 append-bottom last">
+				<div class="span-11 append-1">
+					<h2>Create a new Item<span></span></h2>
+				</div>
+			</div>
+			
+			<div id="pagecontent" class="span-24 prepend-top last">
+				<div class="section-item span-22 append-1">
+					<div class="section span-10 ">
+						<div class="append-bottom span-13 last">
+							<label for="petitioners">Petitioner(s)</label><br/>
+							<select id="petitioners"  style="width:62%;" multiple="multiple">
+								<option value="1">Ald. Salvucci (Ward 3)</option>
+								<option value="2">Ald. Lennon (Ward 1)</option>
+								<option value="3">Ald. Ciccone (Ward 1)</option>
+								<option value="4">Ald. Stallone (Ward 2)</option>
+								<option value="1">Ald. Salvucci (Ward 3)</option>
+								<option value="2">Ald. Lennon (Ward 1)</option>
+								<option value="3">Ald. Ciccone (Ward 1)</option>
+								<option value="4">Ald. Stallone (Ward 2)</option>
+							</select><br/><br/>
+							<label for="on_behalf_of">On behalf of</label><br/>
+							<input id="on_behalf_of" class="span-8" type="text"></input><br/><br/>	
+							<label for="affected_lot">Affected lot(s)</label><br/>
+							<input id="affected_lot" class="span-8" type="text"></input><br/><br/>
+							<label for="abutting_lot">Abuttinglot(s)</label><br/>
+							<input id="abutting_lot" class="span-8" type="text"></input><br/><br/>
+						</div>
+					</div>
+					<div class="section span-10">
+						<div class="append-bottom span-13 last">
+							<label for="description">Description</label><br/>
+							<textarea id="description" class="span-8" style="height:188px;"></textarea><br/><br/><br/>
+							<label for="geotag"  class="span-8">Geotag</label><br/>
+							<input id="geotag" class="span-8" type="text"></input><br/><br/>
+						</div>
+						<span class="line"></span>
+					</div>
+				</div>
+			</div>
+			<div id="pagecontent" class="span-24 prepend-top last">
+				<div class="section-item span-22 append-1">
+					<div class="section span-10 ">
+						<div class=" append-bottom span-13 last">
+							<div class="span-2">
+								<label for="precinct">Ward</label><br/>
+								<select class="span-2" id="precinct">
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</select>
+							</div>
+							<div class="span-3">							    
+								<label for="docket_prefix">Precinct</label><br/>
+								<select class="span-3" id="docket_prefix">
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</select>
+							</div>
+							<div class="span-3">
+								<label for="ward">Docket Prefix</label> <br/>
+								<select class="span-3" id="ward">
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</select>
+							</div>
+							<div class="span-9"><br/>
+								<label for="ordinance">Ordinance</label> <br/>
+								<input class="span-8" style="margin-top: 13px;" id="ordinance" type="text"></input> 
+							</div>	
+						</div>
+					</div>
+					<div class="section span-10">
+						<div class="append-bottom span-10 last">
+							<div class="span-10">
+								<label for="docket_with">Docket with</label><br/>
+								<select id="docket_with" class="span-8">
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</select>
+							</div>
+							<div class="span-10">
+								<br/>
+								<label for="filed_on" class="">Filed on</label><br/>
+								<div style="">
+									<input id="filed_on" style="width:70px" type="text"></input>
+									<img style="margin-top: 11px;" src="images/calendar.gif" alt="calendar"></img>
+									<input style="margin-left:11px;width:70px" type="text"></input>
+									<img src="images/clock.png" style="margin-top:11px;" alt="clock"></img>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div id="pagecontent" class="span-24 prepend-top last">
+				<div class="section-item span-22 append-1">
+					<div class="section span-10">
+						<div class="append-bottom span-13 last">
+							    <label for="docket_with">Note</label><br/>
+							    <textarea id="filed_on" class="span-8" style="height:100px;" ></textarea>
+						</div>
+					</div>		
+					<div class="section span-10">
+						<div class="append-bottom span-13 last">
+							<label for="filed_on">Filed on</label><br/>
+							<input id="filed_on" class="span-8" type="text"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="pagecontent" class="span-24 prepend-top last">
+				<div class="span-22 append-1">
+					<div class="section span-10">
+						<div class="append-bottom span-13 last"></div>
+					</div>		
+					<div class="section span-10">
+						<div class="append-bottom span-8 last" style="text-align:right">
+							<input style="color: white; background: #423A3A; -moz-border-radius: 5px; padding: 6px 14px" type="button" value="Create section-item"></input>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+
+			
+		</div>
+
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer">
+		<div class="container">
+		
+		</div>
+	</div>
+
+
+</body>
+</html>
