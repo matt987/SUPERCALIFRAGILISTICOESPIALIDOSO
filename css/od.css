@@ -152,7 +152,7 @@ ul#subnav li, ul#subnav a {
 	color:#a3a3a3;
 }
 
-.item.no-border {
+.no-border {
 	border:none !important;
 }
 
@@ -213,6 +213,86 @@ ul#subnav li, ul#subnav a {
 	margin-bottom:5px;
 }
 
-.section-item {
-	border-bottom:2px solid #ddd;
+
+/** TICKET SECTION **/
+#item-nav {
+	font:14px/30px Helvetica;
+}
+
+#item-nav li {
+	
+}
+
+#item-nav li a {
+	padding-left:10px;
+	color:#322a2a;
+}
+
+#item-nav li a:hover {
+	text-decoration:none;
+	color:#b40b51;
+}
+
+#item-nav li a.current {
+	background:#ededed;
+	font-weight:bold;
+	display:block;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	color:#b40b51;
+}
+
+
+.item-info h4 {
+	font:bold 14px/24px Helvetica;
+	padding:0;
+	margin:0;
+	color:#322a2a;
+}
+
+.item-info h4 span {
+	color:#b40b51;
+}
+
+.item-config, .item-history, .item-details {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ddd;
+}
+
+.item-config h3, .item-history h3, .item-details h3 {
+	font:bold 16px/20px Helvetica;
+	margin:0;
+	padding:0;
+}
+
+.item-config p, .item-history p, .item-details p {
+	font:12px/18px Helvetica;
+	color: #a3a3a3;
+	margin:0;
+}
+
+.item-history .day {
+	font:bold 14px/18px Helvetica;
+	margin-top:2px;
+}
+
+.item-history .year {
+	color: #a3a3a3;
+}
+
+.item-history a.file {
+	background:url(../images/item-doc-options.png) 0px 0px no-repeat;
+	font:12px/16px Arial;
+	padding-left:20px;
+}
+
+.item-history a.download {
+	background:url(../images/item-doc-options.png) 0px -16px no-repeat;
+	font:12px/16px Arial;
+	padding-left:20px;
+}
+
+.item-info .map {
+	border:5px solid #fff;
 }
