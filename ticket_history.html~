@@ -32,7 +32,7 @@
 				<a id="nameapp" class="span-5" href="index.html"></a>
 				<ul id="nav" class="prepend-top prepend-6 span-13 last">
 					<li><a href="create_item.html">Create item</a></li>
-					<li><a href="committees_details.html" class="current">Committees</a></li>
+					<li><a href="#" class="current">Committees</a></li>
 					<li><a href="#">People</a></li>
 					<li><a href="#">Locations</a></li>
 					<li><a href="#">Tags</a></li>
@@ -61,30 +61,95 @@
 				<div class="span-6 ">
 					<ul id="item-nav">
 						<li><a href="ticket_details.html">Details</a></li>
-						<li><a href="ticket_history.html">History</a></li>
+						<li><a href="ticket_history.html" class="current">History</a></li>
 						<li><a href="ticket_docs.html">Documents</a></li>
-						<li><a href="ticket_not.html" class="current">Notifications</a></li>
+						<li><a href="ticket_not.html">Notifications</a></li>
 					</ul>
 				</div>
 					
 				<!-- MIDDLE COLUMN -->
 				<div class="section span-10 prepend-1 append-1">
-					<div class="item-config">
-						<h3>TC56-09</h3>
-						<p>Control the notifications for the activities related to this item.</p>
-						<p><a href="#">Edit configuration</a></p>
+					
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Apr 13</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>TC56-09</h3>
+							<p>Scheduled for <a href="#">Traffic Council 5/1/2011</a></p>
+						</div>
 					</div>
 					
-					<div class="item-config">
-						<h3>All Traffic Council items in Ward 3 / Precinct 2</h3>
-						<p>Control the notifications for the activities related to this item.</p>
-						<p><a href="#">Edit configuration</a></p>
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Feb 24</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Traffic Council</h3>
+							<p>Held (5-0) for further study.</p>
+							<p>&raquo; <a href="#">Details</a></p>
+						</div>
 					</div>
 					
-					<div class="item-config no-border">
-						<h3>All Traffic Council items</h3>
-						<p>Control the notifications for the activities related to this item.</p>
-						<p><a href="#">Edit configuration</a></p>
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Jan 27</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Corey Clerk</h3>
+							<p>Uploaded document.</p>
+							<p><a href="#" class="file">Traffic Engineer Prelim Study</a></p>
+						</div>
+					</div>
+					
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Jan 23</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Traffic Council Chairman</h3>
+							<p>Scheduled for <a href="#">Traffic Council 24/2/2011</a></p>
+						</div>
+					</div>
+					
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Jan 23</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Traffic Council Chairman</h3>
+							<p>Assigned to <a href="#">Traffic Council Docket</a></p>
+						</div>
+					</div>
+					
+					<div class="item-history span-10 last">
+						<div class="span-2">
+							<div class="day">Jan 21</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Corey Clerk</h3>
+							<p>OpenDocket item created.</p>
+						</div>
+					</div>
+					
+					
+					<div class="item-history no-border span-10 last">
+						<div class="span-2">
+							<div class="day">Jan 21</div>
+							<div class="year">2011</div>
+						</div>
+						<div class="span-8 last">
+							<h3>Alderman Salvucci</h3>
+							<h3>Alderman Lennon</h3>
+							<h3>Alderman Ciccone</h3>
+							<p>Filled.</p>
+						</div>
 					</div>
 					
 					

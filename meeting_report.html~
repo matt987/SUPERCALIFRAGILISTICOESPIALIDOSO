@@ -32,7 +32,7 @@
 			<div id="header" class="span-24 prepend-top append-bottom last">
 				<h1 id="nameapp" class="span-5"><a href="index.html"><span>OpenDocket</span></a></h1>
 				<ul id="nav" class="prepend-top prepend-8 span-11 last">
-					<li><a href="committees_details.html" class="current">Committees</a></li>
+					<li><a href="#" class="current">Committees</a></li>
 					<li><a href="#">People</a></li>
 					<li><a href="#">Locations</a></li>
 					<li><a href="#">Tags</a></li>

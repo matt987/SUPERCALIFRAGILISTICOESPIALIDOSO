@@ -32,7 +32,7 @@
 				<a id="nameapp" class="span-5" href="index.html"></a>
 				<ul id="nav" class="prepend-top prepend-6 span-13 last">
 					<li><a href="create_item.html">Create item</a></li>
-					<li><a href="committees_details.html">Committees</a></li>
+					<li><a href="committees_details.html" class="current">Committees</a></li>
 					<li><a href="#">People</a></li>
 					<li><a href="#">Locations</a></li>
 					<li><a href="#">Tags</a></li>
